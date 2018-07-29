@@ -8,7 +8,7 @@
 
 Here is the current Design, made by  [Javier Martinez](https://twitter.com/Hey_itsJavi) 👇
 
-![](/Users/Alexandre/Projets/peopleintech/PiT-Design.jpg)
+![](peopleintech/PiT-Design.jpg)
 
 
 
