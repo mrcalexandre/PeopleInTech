@@ -1,6 +1,6 @@
 # People in Tech
 
-==A database of Twitter Users working and interested in Tech.==
+### A database of Twitter Users working and interested in Tech.
 
 *Currently in development 🚧*
 
