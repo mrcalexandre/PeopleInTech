@@ -161,7 +161,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #A0A0A1;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -1818,7 +1818,7 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #D6DDE3;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2258,6 +2258,7 @@ textarea.form-control {
   .form-inline .input-group,
   .form-inline .custom-select {
     width: auto;
+	 border: 1px solid #D6DDE3;
   }
   .form-inline .form-check {
     display: -ms-flexbox;

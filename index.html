@@ -13,23 +13,148 @@
 	<meta property="og:description" content="A database of Twitter Users working and interested in Tech." />
 	<meta property="og:url" content="" />
 	<meta property="og:site_name" content="Javier Martinez and Alexandre Mouriec" />
-	<meta property="og:image" content="favicon.ico" />
+	<meta property="og:image" content="/favicon.ico" />
 	<meta name="keywords" content="alexandremouriec, alexandre, mouriec, internships, student, startup,  tech, startup, vc, curious" />
 	<meta name="author" content="Javier Martinez and Alexandre Mouriec" />
 
 	<!--Twitter integration -->
 	<meta name="twitter:title" content="People In Tech" />
-	<meta name="twitter:image" content="favicon.ico" />
+	<meta name="twitter:image" content="/favicon.ico" />
 	<meta name="twitter:url" content="" />
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="css/style.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<title>People in Tech</title>
 </head>
 
 <body>
-	<h1>People in Tech</h1>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col--md-6 navbar-header">
+
+					<a class="navbar-brand" href="#">
+						<h1 class="people-in-tech">People in Tech</h1>
+					</a>
+					<!--<div class="col-md-4 offset-md-7">
+	<a href=""><img src="images/Alexandre.png" class=" oval"/></a>
+</div>-->
+
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="jobs-list" id="jobs-list">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1">
+
+					<ul>
+						<li class="designers"><a href="">Designers</a></li>
+						<li class="developers"><a href="">Developers</a></li>
+						<li class="entrepreneurs"><a href="">Entrepreneurs</a></li>
+						<li class="marketers"><a href="">Marketers</a></li>
+						<li class="managers"><a href="">Managers</a></li>
+					</ul>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 offset-md-2">
+							<div class="input-group">
+								<input class="form-control searchbar border-secondary py-2" type="search" placeholder="Add more skills ...">
+								<div class="input-group-append">
+									<button class="btn btn-primary rectangle" type="submit">
+                       Search
+                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="people">
+		<div class="container results">
+			<div class="col-md-11 offset-md-3">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 offset-md-1 profile-card">
+						<div class="bio">
+							<div class="row">
+								<figure class="col-md-2"><img src="images/Alexandre.png" class="oval" /></figure>
+								<h6 class="col-md-6">Alexandre Mouriec
+									<br/><a href="https://twitter.com/mrcalexandre" class="twitterlink">@mrcalexandre</a>
+								</h6>
+								<img class="col-md-2 shape" src="images/link-icon.svg" /> <img class="col-md-2 shape" src="images/github-logo.svg" />
+
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-2"><em>CS at IUT of Lannion</em></div>
+							</div>
+						</div>
+						<hr/>
+						<div class="col-md-12 about">
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+						<button class="tags"><a href="">UX Design</a></button>
+						<button class="tags">UI Design</button>
+						<button class="tags">IOS Dev</button>
+						<button class="tags">Prototyping</button>
+					</div>
+					<div class="col-lg-3 col-md-3 profile-card">
+						<div class="bio">
+							<div class="row">
+								<figure class="col-md-2"><img src="images/Alexandre.png" class="oval" /></figure>
+								<h6 class="col-md-6">Alexandre Mouriec
+									<br/><a href="https://twitter.com/mrcalexandre" class="twitterlink">@mrcalexandre</a></h6>
+								<img class="col-md-2 shape" src="images/link-icon.svg" /> <img class="col-md-2 shape" src="images/github-logo.svg" />
+
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-2"><em>CS at IUT of Lannion</em></div>
+							</div>
+						</div>
+						<hr/>
+						<div class="col-md-12 about">
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+						<button class="tags"><a href="">UX Design</a></button>
+						<button class="tags">UI Design</button>
+						<button class="tags">IOS Dev</button>
+						<button class="tags">Prototyping</button>
+					</div>
+					<div class="col-lg-3 col-md-3 profile-card">
+						<div class="bio">
+							<div class="row">
+								<figure class="col-md-2"><img src="images/Alexandre.png" class="oval" /></figure>
+								<h6 class="col-md-6">Alexandre Mouriec
+									<br/><a href="https://twitter.com/mrcalexandre" class="twitterlink">@mrcalexandre</a></h6>
+								<img class="col-md-2 shape" src="images/link-icon.svg" /> <img class="col-md-2 shape" src="images/github-logo.svg" />
+
+							</div>
+							<div class="row">
+								<div class="col-md-10 offset-md-2"><em>CS at IUT of Lannion</em></div>
+							</div>
+						</div>
+						<hr/>
+						<div class="col-md-12 about">
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+						<button class="tags"><a href="">UX Design</a></button>
+						<button class="tags">UI Design</button>
+						<button class="tags">IOS Dev</button>
+						<button class="tags">Prototyping</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
