@@ -1,3 +1,9 @@
+@media only screen and (min-width: 800px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+
 .people-in-tech {
 	height: 41px;
 	width: 228px;
@@ -107,14 +113,15 @@ ul {
 
 
 .profile-card {
-	height: 100%;
-	width: 90%;
+	height: auto;
+	width: 100%;
 	padding: 10px 10px;
 	border-radius: 7px;
 	background-color: #FFFFFF;
 	box-shadow: 0 4px 9px 5px rgba(128, 128, 128, 0.08);
-	margin-left: 20px;
 	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 25px;
 }
 
 li a {
@@ -133,19 +140,12 @@ li a:visited {
 	opacity: 100;
 }
 
-.results {
-	margin: 10px 10px;
-}
 
-.oval {
-	height: 41px;
-	width: 41px;
-}
 
 .shape {
 	height: 30px;
 	width: 30px;
-	margin-left: -5px;
+
 }
 
 h6 {
@@ -166,6 +166,7 @@ h6 {
 	border: none;
 	text-align: justify;
 	color: #657786;
+	margin: 1px 2px;
 }
 
 .tags a {
@@ -175,4 +176,38 @@ h6 {
 
 .twitterlink {
 	color: #2F89FC;
+}
+
+
+
+
+/* The sidebar menu */
+
+.sidenav {
+	height: 35%;
+	position: fixed;
+	z-index: 1;
+	top: 10;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 10px;
+
+}
+
+@media only screen and (max-width: 800px) {
+	.sidenav {
+		overflow-x: hidden;
+		position: relative;
+		z-index: 0;
+	}
+}
+
+
+.navbar-toggler.toggler-example {
+	cursor: pointer;
+}
+
+.description {
+	font-size: 100%;
+	height: auto;
 }
